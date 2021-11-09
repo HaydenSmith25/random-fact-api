@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      #app {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+      }
+      #randomFact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        font-size: 16px;
+        text-align: center;
+        padding: 1em;
+      }
+      #getRandomFact {
+        margin: 1em;
+        padding: 1em;
+      }
+    </style>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="randomFact"></div>
+      <button id="getRandomFact">Click Me For Random Facts!</button>
+    </div>
+  </body>
+</html>
